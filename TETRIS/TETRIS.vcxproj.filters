@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Func">
+      <UniqueIdentifier>{b7b33da6-c422-47c5-b985-e3412489aadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Func">
+      <UniqueIdentifier>{b010b2d9-065c-4e5d-9ad7-ce06d7c65e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hierarchy">
+      <UniqueIdentifier>{6eb4051d-40f6-4ef6-ac3e-e79eb342e4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hierarchy">
+      <UniqueIdentifier>{4964d58d-d3c4-41c3-b504-555945a9ad1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="BMP.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider2D.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="deltaTime.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="TETRIS.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisBlock.h">
+      <Filter>Header Files\Hierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Header Files\Hierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisBlockController.h">
+      <Filter>Header Files\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateBlockCollider.h">
+      <Filter>Header Files\Hierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckCompleteBlocksCollider.h">
+      <Filter>Header Files\Hierarchy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TETRIS.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="BMP.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider2D.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="deltaTime.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisBlock.cpp">
+      <Filter>Source Files\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Source Files\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisBlockController.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateBlockCollider.cpp">
+      <Filter>Source Files\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckCompleteBlocksCollider.cpp">
+      <Filter>Source Files\Hierarchy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TETRIS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TETRIS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
