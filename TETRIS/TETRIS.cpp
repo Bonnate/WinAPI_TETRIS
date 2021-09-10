@@ -53,6 +53,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     //Init Objects Here
     ObjectManager::instantiate(new BackGround(0, 0), 0);
     ObjectManager::instantiate(new CheckCompleteBlocksCollider(0, 0), 3);
+    TetrisBlockController::SpawnBlocks(Random::Range(0, 6), Global::GetWIDTH() / 2 - 80, -120);
     
 
 

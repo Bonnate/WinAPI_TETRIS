@@ -25,6 +25,8 @@ void TetrisBlock::start()
 	addBoxCollider2D(2, 1, 36, 40);
 	addBoxCollider2D(-1, 2, 2, 36);
 	addBoxCollider2D(39, 2, 2, 36);
+
+	setImageDelay(1.0f);
 }
 void TetrisBlock::update()
 {

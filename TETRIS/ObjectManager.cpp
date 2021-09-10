@@ -139,8 +139,6 @@ void ObjectManager::checkObjectCollision(GameObject* objI, GameObject* objJ, int
 
 void ObjectManager::checkBlocksComplete()
 {
-	printf("TOTAL: %d\nOBJ1: %d\nOBJ2: %d\n", TetrisBlockController::GetTotalSpawnedBlocksAmount(), gameObject[1].size(), gameObject[2].size());
-
 	if (gameObject[1].size() < 0) return;
 
 	vector<BoxCollider2D*> boxI = gameObject[3][0]->getBoxCollider2D();
@@ -191,7 +189,6 @@ void ObjectManager::checkBlocksComplete()
 					{
 						destroy(gameObject[1][j]);
 						destroy(gameObject[2][j]);
-
 						
 						break;
 					}
@@ -300,7 +297,7 @@ void ObjectManager::controlBlocks()
 		DownSetTimer += Time::deltaTime;
 		if (DownSetTimer >= DownSetDelay)
 		{
-			TetrisBlockController::SpawnBlocks(Random::Range(0,6), 120, 120);
+			TetrisBlockController::SpawnBlocks(Random::Range(0, 6), Global::GetWIDTH() / 2 - 80, -120);
 			DownSetTimer = .0f;
 
 			return;

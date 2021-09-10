@@ -125,11 +125,6 @@ void TetrisBlockController::BlockControlUpdate()
 {
 	ObjectManager::controlBlocks();
 
-	if (Input::getKeyDown("z"))
-	{
-		SpawnBlocks(2, 200, 200);
-	}
-
 	if (Input::getKeyDown("space"))
 		RollBlocks();
 }
