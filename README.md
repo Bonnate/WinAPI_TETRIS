@@ -1,11 +1,15 @@
 
-> C++ WinAPI를 이용하여 제작한 테트리스 게임입니다. 대학교 2학년 2학기에 스스로 공부를 하면서 제작 한 게임으로, WinAPI 슈팅 게임을 만든 후 작업한 게임입니다.  
+> C++ WinAPI를 이용하여 제작한 테트리스 게임입니다. <br>
+> 대학교 2학년 2학기에 스스로 공부를 하면서 제작 하였습니다. <br>
+> WinAPI 슈팅 게임을 만든 후 작업한 게임입니다.  
+
+</br>
 
 ## 📺 미리 보기
 
 ![](https://blog.kakaocdn.net/dn/bgjNhh/btsvktZJCwj/iuKprDNUJZzAKOWDd8FCY0/img.gif)
 
-  
+  </br>
 
 ## 💬 프로젝트 간단 설명
 
